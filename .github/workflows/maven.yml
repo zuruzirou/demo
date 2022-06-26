@@ -23,7 +23,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: my1
-      run: pwd
+      run: java -version
     - name: my1
       run: echo "ABC-----------------"
 #    - name: set environment variables
