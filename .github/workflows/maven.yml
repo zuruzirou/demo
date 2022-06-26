@@ -22,7 +22,7 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
         cache: maven
-    - my1
+    - name: my1
       run: pwd
 #    - name: set environment variables
 #      uses: allenevans/set-env@v2.0.1
