@@ -27,7 +27,8 @@ jobs:
         set path
         set J
         set m
-        ls /usr/bin
+        where java
+        where mvn
     - name: my1
       run: java -version
     - name: my1
