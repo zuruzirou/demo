@@ -23,7 +23,8 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: view path
-      run: set path
+      run: |
+      set path
       set m
     - name: my1
       run: java -version
