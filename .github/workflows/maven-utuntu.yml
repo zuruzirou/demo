@@ -25,7 +25,9 @@ jobs:
     - name: view path
       run: |
         set path
+        set J
         set m
+        ls /usr/bin
     - name: my1
       run: java -version
     - name: my1
